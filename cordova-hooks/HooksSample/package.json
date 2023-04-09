@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "cordova-android": "4.0.2",
+    "cordova-electron": "^3.1.0",
+    "cordova-plugin-inappbrowser": "1.0.0",
+    "cordova-plugin-whitelist": "^1.0.0"
+  },
+  "cordova": {
+    "platforms": [
+      "android",
+      "electron"
+    ],
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-inappbrowser": {}
+    }
+  }
+}
