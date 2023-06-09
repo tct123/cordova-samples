@@ -64,7 +64,7 @@ function onGetLocationSuccess(position) {
 
     var queryString =
       'http://api.openweathermap.org/data/2.5/weather?lat='
-      + latitude + '&lon=' + longitude + '&appid=' + OpenWeatherAppKey + '&units=imperial';
+      + latitude + '&lon=' + longitude + '&appid=' + OpenWeatherAppKey + '&units=metric';
 
     $('#get-weather-btn').prop('disabled', false);
 
