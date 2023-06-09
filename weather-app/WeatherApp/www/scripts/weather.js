@@ -1,5 +1,5 @@
 ﻿// Get a free key at http://openweathermap.org/. Replace the "Your_Key_Here" string with that key.
-var OpenWeatherAppKey = "Your_Key_Here";
+var OpenWeatherAppKey = prompt();
 
 function getWeatherWithZipCode() {
 
@@ -7,7 +7,7 @@ function getWeatherWithZipCode() {
 
     var queryString =
         'http://api.openweathermap.org/data/2.5/weather?zip='
-         + zipcode + ',us&appid=' + OpenWeatherAppKey + '&units=imperial';
+         + zipcode + ',de&appid=' + OpenWeatherAppKey + '&units=metric';
 
     $.getJSON(queryString, function (results) {
 
